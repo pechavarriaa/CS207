@@ -4,7 +4,21 @@
   Pablo Echavarria 200385648
   The program displays morse code, just change string to play with strings
   28/09/2017
-  
+
+  The connection (hardware)  of the arduino  are as follows:
+
+  Connect a digital pin from the arduino to the breadboard and in the same
+  row connect one side of the 560 ohm resistor, in the other end of the
+  resistor connect the largest leg of the LED, then connect the shortest
+  leg in another row and in the same row connect a cable to the ground GND
+
+  The Program (software) is as follows:
+
+  Initially we have one string which is the morse code message, we have
+  a array of strings for saving all the letters of the alphabet with each
+  morse code code, then in the void loop() the code process the string to
+  decode by going trough each letter or space in the string and turn on and
+  off the LED accordingly.
 */
  
 
