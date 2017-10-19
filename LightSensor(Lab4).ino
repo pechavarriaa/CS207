@@ -1,6 +1,9 @@
 /* 
  Pablo Echavarria
  200385648
+ 10/12/2017
+ 
+ Light Sensor and LED'S
  
 Constant Variables: ledPin(for write on led), lightPin(to read from light sensor)
 Variables:  light_value(reads from arduino based on the light)
